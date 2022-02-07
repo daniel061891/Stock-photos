@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+}
+
+.morePictures button {
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background: #490049;
+  color: white;
+}
+
+.morePictures button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+nav {
+  background-color: #9b6b9b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 10vh;
+}
+
+nav h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 3rem;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #d4d4d4;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+}
+
+.search input,
+.search button {
+  font-size: 2rem;
+  padding: 0.3rem;
+  border: 3px solid #2b002b;
+}
+
+.search input {
+  border-right: none;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.search button {
+  border-radius: 0 1rem 1rem 0;
+  background-color: #490149;
+  color: white;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #9b6b9b;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: #8a8888;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+
+.pictures .picture .photoContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+
+.pictures .picture .photoContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+.pictures .picture .photoContainer img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+/*# sourceMappingURL=style.css.map */

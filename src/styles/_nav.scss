@@ -1,0 +1,30 @@
+nav {
+  background-color: rgb(155, 107, 155);
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    li {
+      padding: 0.5rem 1rem;
+
+      a {
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        &:hover {
+          color: rgb(212, 212, 212);
+        }
+      }
+    }
+  }
+}

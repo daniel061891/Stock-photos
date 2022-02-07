@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  button {
+    padding: 0.5rem 0.75rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background: rgb(73, 0, 73);
+    color: white;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";

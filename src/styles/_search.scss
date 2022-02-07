@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  input,
+  button {
+    font-size: 2rem;
+    padding: 0.3rem;
+    border: 3px solid rgb(43, 0, 43);
+  }
+  input {
+    border-right: none;
+    border-radius: 1rem 0 0 1rem;
+  }
+  button {
+    border-radius: 0 1rem 1rem 0;
+    background-color: rgb(73, 1, 73);
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(155, 107, 155);
+    }
+  }
+}
+.main {
+  min-height: 100vh;
+}
